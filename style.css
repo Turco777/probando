@@ -1,0 +1,233 @@
+@font-face {
+    font-family: source-titulo;
+    src: url(fonts/SourceSansPro-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: source-parrafos;
+    src: url(fonts/SourceSansPro-Light.ttf);
+}
+
+.nav-bar {
+    height: 80px;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+.nav-container {
+    position: relative;
+    padding: 19px 0;
+    
+    background-size: contain;
+    background-position: center; 
+    opacity: 0.6;
+}
+    
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: source-titulo;
+   
+}
+
+.nav-items {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.divHome {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.imagenHome {
+    width: 100%;
+}
+
+.textoEncima {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+}
+
+.imagenProducto {
+    width: 50%;
+    height: auto;
+}
+
+.product {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*Grilla */
+.grid-contenedor {
+    display: grid;
+    margin: 40px 0 40px 0;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1px 1px;
+    text-align: center;
+    justify-content: stretch;
+    font-size: 1.5rem;
+    grid-template-areas: 
+    "bannerUno bannerUno bannerUno bannerUno"
+   "productoDos productoDos productoTres productoCuatro"
+   "productoCinco productoSeis productoSiete productoCuatro"; 
+}
+  
+  .bannerUno {
+    grid-area: bannerUno;
+    background-color: #EFF4F7; 
+}
+  
+  .productoTres {
+    grid-area: productoTres;
+    background-color: #73CAEF; 
+}
+  
+  .productoDos {
+    grid-area: productoDos;
+    background-color: #89FFFB; 
+}
+  
+  .productoCuatro {
+    grid-area: productoCuatro;
+    background-color: #41E2DD; 
+}
+  
+  .productoCinco {
+    grid-area: productoCinco;
+    background-color: #50D8C8; 
+}
+  
+  .productoSeis {
+    grid-area: productoSeis;
+    background-color: #53B4F4; 
+}
+  
+  .productoSiete {
+    grid-area: productoSiete;
+    background-color: #CDE0E4; 
+}
+  
+.ubi-section {
+    display: flex;
+    justify-content: center;
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+}
+
+
+footer {
+    background-color: #e1eef7;
+    width: 100%;
+    height: 100px;
+    padding: 35px 0 0 0;
+    text-align: center;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: source-parrafos;
+}
+
+
+.social-section {
+    position: relative;
+    padding: 63px 0;
+    background-image: url("imagenes/social-bckg.jpg");
+    background-size: cover;
+    background-position: center; 
+}
+    
+.social-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #c18f59;
+    opacity: 0.75; 
+}
+
+.social-section .site-container {
+    position: relative;
+    z-index: 1; 
+}
+
+@media (max-width: 620px) {
+    .social-section {
+        padding: 40px 0; } 
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.social h5 {
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff; }
+    @media (max-width: 620px) {
+    .social {
+        flex-direction: column; } 
+}
+          
+.social-icons a {
+    position: relative;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 13px 23px;
+    margin-right: 10px;
+    transition: 0.3s ease; 
+}
+
+.social-icons a:hover {
+    background-color: #777;
+    border-color: transparent; 
+}
+          
+
+.social-icons img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+}
+          
+@media (max-width: 620px) {
+    .social-icons {
+        margin: 35px 0; } 
+    }
+
+
