@@ -9,6 +9,8 @@
     src: url(fonts/SourceSansPro-Light.ttf);
 }
 
+html {scroll-behavior: smooth}
+
 .nav-bar {
     height: 80px;
     text-align: center;
