@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: source-titulo;
     src: url(fonts/SourceSansPro-Bold.ttf);
@@ -50,7 +52,7 @@ h1 {
 }
 
 .divHome {
-    margin-top: 10px;
+    margin-top: 10px; 
     position: relative;
     display: inline-block;
     text-align: center;
@@ -59,12 +61,14 @@ h1 {
 
 .imagenHome {
     width: 100%;
+    padding-top: 4px;
 }
 
 .textoEncima {
     position: absolute;
     top: 10%;
     left: 50%;
+    margin-top: 18%;
     transform: translate(-50%, -50%);
 }
 
@@ -91,7 +95,7 @@ h1 {
 /*Grilla */
 .grid-contenedor {
     display: grid;
-    margin: 40px 0 40px 0;
+    margin: 5px 0 5px 0;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(3, 200px);
     gap: 1px 1px;
