@@ -1,4 +1,7 @@
-
+* { 
+    margin: 0;
+    padding: 0;
+}
 
 @font-face {
     font-family: source-titulo;
@@ -21,11 +24,11 @@ html {scroll-behavior: smooth}
 
 .nav-container {
     position: relative;
-    padding: 19px 0;
-    background-image: url("imagenes/pngtree-games-autumn-games-sports-meeting-background-autumn-sports-background-image_15542.jpg");
+    padding: 27px 0;
+    /* background-image: url("imagenes/pngtree-games-autumn-games-sports-meeting-background-autumn-sports-background-image_15542.jpg");
     background-size: contain;
     background-position: center; 
-    opacity: 0.6;
+    opacity: 0.6;*/ 
 }
     
 
@@ -62,11 +65,14 @@ h1 {
 .title {
     font-size: 25px;
     text-align: center; 
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .imagenHome {
     width: 100%;
     padding-top: 4px;
+   
 }
 
 .textoEncima {
@@ -98,6 +104,7 @@ h1 {
 
 
 /*Grilla */
+/*
 .grid-contenedor {
     display: grid;
     margin: 5px 0 5px 0;
@@ -147,7 +154,7 @@ h1 {
     grid-area: productoSiete;
     background-color: #CDE0E4; 
 }
-  
+  */ 
 .ubi-section {
     display: flex;
     justify-content: center;
