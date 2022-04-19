@@ -255,3 +255,11 @@ footer {
     }
 
 
+.sectionproducts {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.section__py {
+    padding: 2rem 0;
+}
