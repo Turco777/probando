@@ -1,0 +1,47 @@
+.nav-bar {
+  height: 75px;
+  text-align: center;
+  padding: 0 0 0 0;
+}
+
+.nav-container {
+  position: relative;
+  padding: 27px 0;
+  /* background-image: url("imagenes/pngtree-games-autumn-games-sports-meeting-background-autumn-sports-background-image_15542.jpg");
+  background-size: contain;
+  background-position: center; 
+  opacity: 0.6;*/
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: source-titulo;
+}
+
+.nav-items {
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+.nav-items:hover {
+  transform: scale(1.5);
+}
+
+footer {
+  background-color: #e1eef7;
+  width: 100%;
+  height: 100px;
+  padding: 35px 0 0 0;
+  text-align: center;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: source-parrafos;
+}
+
+/*# sourceMappingURL=style.css.map */
