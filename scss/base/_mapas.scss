@@ -1,0 +1,24 @@
+
+/* Maps nos permiten tener un objeto que contiene distintos valores para una misma seccion */ 
+
+/* se arman con () y dentro tienen una key y un valor */ 
+
+$perfil-standard: (
+    bg-color-standard: gray,
+    border-standard: 1px solid black,
+    font-standard: 2rem
+);
+
+$perfil-premium: (
+    bg-color-premium: blue,
+    border-premium: 3px solid black,
+    font-premium: 3rem
+);
+
+#standard {
+    background-color: map-get($perfil-standard, bg-color-standard);
+}
+
+#premium {
+    background-color: map-get($perfil-premium, bg-color-premium);
+}
